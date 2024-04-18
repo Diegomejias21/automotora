@@ -1,18 +1,76 @@
+body{
+    background-color: #dfe3e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Fondo del navbar*/
 .navbar {
     background-color: #000000 !important; 
 }
 
+/*Color de la letra del navbar*/
+.navbar-brand, .nav-link{
+    color: #FFFFFF !important;
+}
 
+/*Estilo para el formulario, que se vea el buscar al lado izq del formulario */
+.form-inline {
+    flex-wrap: nowrap;
+    margin-right: 20px;
+}
+
+/*Campo de búsqueda */
+.form-control {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/*Buscar blanco*/
+.navbar-collapse form .btn {
+    color: #ffffff; 
+    border-color: #FFFFFF; 
+}
 
 /*Posicionamiento del formulario de búsqueda */
 .navbar-collapse form {
     margin-left: auto; 
 }
 
+/*Fondo y letra de las cards*/
+.card {
+    background-color: #201f1f; 
+    color: #ece9e9;
+}
+
+/*centrar texto cards*/
+.card-body {
+    text-align: center;
+}
+
+/*Margenes de las card*/
+.card {
+    margin-top: 50px; /* Ajusta el valor según sea necesario */
+    margin: 50px;
+}
+
+/*Texto sobre el carrusel*/
+.overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF; 
+    padding: 20px; 
+    text-align: center;
+    border-radius: 20px; 
+}
 /*Espaciado*/
 .navbar-brand {
     margin-right: 2rem;
 }
+
+
 
 /*Footer */
 footer {
@@ -21,6 +79,9 @@ footer {
     text-align: center; /* Centrado del contenido */
     padding: 20px 0; /* Espaciado interno */
 }
+
+
+
 
 
 
