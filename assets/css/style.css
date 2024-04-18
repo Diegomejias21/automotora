@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #000000 !important; 
+}
+
+
+
+/*Posicionamiento del formulario de búsqueda */
+.navbar-collapse form {
+    margin-left: auto; 
+}
+
+/*Espaciado*/
+.navbar-brand {
+    margin-right: 2rem;
+}
+
+/*Footer */
+footer {
+    background-color: #000000; /* Negro de fondo */
+    color: #FFFFFF; /* Letras blancas */
+    text-align: center; /* Centrado del contenido */
+    padding: 20px 0; /* Espaciado interno */
+}
+
+
+
