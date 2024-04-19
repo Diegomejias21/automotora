@@ -322,3 +322,30 @@ input::placeholder, textarea::placeholder{
 .input-group textarea {
     border-radius: 20px;
 }
+
+/*Sobre nosotros*/
+
+.about-container {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.about-us {
+    font-size: 16px; 
+    line-height: 1.6;
+    color: #ffffff;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/*Media query para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    .about-us {
+        font-size: 14px; 
+    }
+}
