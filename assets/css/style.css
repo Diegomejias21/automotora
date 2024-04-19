@@ -1,6 +1,11 @@
 body{
     background-color: #dfe3e6;
     font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Fondo del navbar*/
@@ -39,7 +44,7 @@ body{
 /*Fondo y letra de las cards*/
 .card {
     background-color: #201f1f; 
-    color: #ece9e9;
+    color: rgb(129, 224, 253);
 }
 
 /*centrar texto cards*/
@@ -80,8 +85,240 @@ footer {
     padding: 20px 0; /* Espaciado interno */
 }
 
+.celeste a{
+    color: rgb(129, 224, 253);
+}
+
+/************************************************************************************/
+
+/*Login*/
+
+
+.Formulario {
+    background-color: #363434;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 150px auto;
+    max-width: 400px;
+    border-radius: 10px; /* Radio de borde de 20px */
+    border: 3px solid rgb(218, 210, 210); /* Borde gris de 2px */
+}
+
+.Formulario h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Formulario label {
+    font-weight: bold;
+}
+
+.Formulario input[type="text"],
+.Formulario input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.Formulario .recordar {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.recordar a{
+    color: rgb(129, 224, 253);
+}
+
+.Formulario .button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4b8ed4;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Formulario .button:hover {
+    background-color: #0056b3;
+}
+
+.Formulario .registrarse {
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 5px;
+    
+}
+
+.Formulario .registrarse a {
+    color: rgb(129, 224, 253);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Formulario .registrarse a:hover {
+    text-decoration: underline;
+}
+
+.user-image {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px; 
+}
 
 
 
 
+.login {
+    margin-top: 5px;
+    display: flex;
+    color: rgb(129, 224, 253);
+    justify-content: center; /* Centrar horizontalmente */
+}
 
+/*FIN ESTILOS LOGIN*/
+
+
+/*Productos*/
+
+.container {
+    background-color: rgb(55, 56, 58); 
+    color: white; 
+    border-radius: 15px;
+}
+
+.container img {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.container p {
+    margin-top: 10px; 
+}
+
+.container h1 {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.ultimo{
+    margin-bottom: 65px;
+}
+
+ul.text-left {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/*Fin Productos*/
+
+/*Contacto*/
+
+.Form{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    background-color: #383a3b;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    padding: 20px;
+    width: 30%;
+}
+
+.Formulario {
+    
+    background-color: #575454;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto; 
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2{
+    color: rgb(253, 249, 249);
+    font-size: 35px;
+}
+
+.label-Contact{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #edfdff;
+    border: 2px solid #f0f6fa;
+    color: rgb(0, 0, 0);
+    outline: none;
+
+}
+
+input::placeholder, textarea::placeholder{
+    color: #b5bfca;
+}
+
+.form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a {
+    color:rgb(129, 224, 253);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.button {
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    background-color: #77bfe9;
+    box-shadow: 0 0 20px rgba(0, 174, 254, 0.4);
+    cursor: pointer;
+    font-size: 14px;
+    padding: 12px 20px; 
+    margin: 0;
+    width: auto; 
+}
+
+.button:hover {
+    background-color: #5191f1;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="tel"],
+.input-group input[type="email"],
+.input-group textarea {
+    border-radius: 20px;
+}
